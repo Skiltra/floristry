@@ -1,0 +1,99 @@
+* {
+    color: black; 
+    background-color: #F7EDF0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    height: 100%; /*does not work*/
+    margin: 0;
+    margin-right: 0.09cm;
+}
+
+html {
+    display:grid;
+    margin-top: 0px;
+}
+
+
+/* Kinda works, something here makes it go very far right, alt right ya could, margin does nothing*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* for navigation of sites */
+#navbar {
+    display: flexbox;
+    position: fixed;
+    text-align: center;
+    padding: 18px 8px;
+    width: 100%;
+    font-size: 30px;
+    /* border-style: solid; */
+    border-bottom: inset;
+    background-color: #7F7B82;
+    border-color: #171718;
+}
+
+.logo {
+    display: flex;
+    position: inherit;
+    text-align: left;
+    color: #FCD3DE;
+    width: 20%;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #08803c,
+    0 0 20px #F0C0F5,
+    0 0 30px #F0C0F5,
+    0 0 40px #F0C0F5,
+    0 0 55px #F0C0F5,
+    0 0 70px #F0C0F5;
+}
+/* navbar dropdown trial */
+.dropdown {
+    display: hidden;
+
+}
+
+.dropdown:hover {
+    display: block;
+
+}
+/* for links styling */
+a {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+a:hover {
+    color: #454545;
+    text-shadow: 1px 0px #171718;
+}
+
+a:active {
+    color: #F0C0F5;
+}
+
+
+/* For wrapping images content*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 20px;
+    width: fit-content;
+}
+/* im trying to get footer work here, theres an unused footer class in html */
+footer {
+    border: 2px double #454545;
+    background-color: #7F7B82;
+    text-align: center;
+    padding: 2px 2px;
+    width: 100%;
+    margin-top: 8px; /* moves the footer away from content*/
+}
+
