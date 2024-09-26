@@ -2,7 +2,7 @@ Company Name: Elyisum Gardens
 -  Elegant Divine like design
 Target: Older people
 
-# Color Palette
+## Color Palette
 Make sure that your palette includes a: black, 
 white, dark grey and light grey, followed by 
 two colours of your choice <br/>
@@ -15,19 +15,19 @@ Light: #7F7B82
 Color 1: #FCD3DE (dark background)
 Color 2: #F0C0F5 (white)
 
-# Fonts
+## Fonts
 - multi language support
 
-# Productivity
+## Productivity
 - Todo List
 - Kanban Boards
 
-# Testing
+## Testing
 Feedback: could any changes be made
 QA: is it to align with the spec
 Functional: does the website actually perform
 
-# Tasks 
+## Tasks 
 **Day 1** `1 hour 45 minutes` 
 - [x] Wireframe (40m) worked 15m
 - [x] Color Pallete (30m) worked 11m
@@ -72,9 +72,12 @@ github??
 many wireframes?
     how perfect
 
-# Working
-600w
-600x80 nav
-    270x80 nav
-image 150x150(or 50x50)
-
+# Rules
+## HTML
+- Indent any nested divs 
+## CSS
+1. Display & Position at top
+2. anything that affect location
+3. Anything aepshetic like color or shadow effects
+## JS
+- Commenting the basic function, no need to explain each line
