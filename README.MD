@@ -37,16 +37,18 @@ Functional: does the website actually perform
 **Day 2** `2 hour 30 minutes`
 - [x] Footer (15m) worked 19m
 - [x] Navigation Stuck Top (30m) worked 1m
-- [x] Logo Integrated Left (15m) worked 3m<br/>
+- [x] Logo Integrated Left (15m) worked 3m <br/>
+
 **Day 3** `2 hours`
-- [ ] Setup GitHub
+- [x] Setup GitHub
 - [ ] List Integrated Right (30m)
 - [ ] Secondary Pages (45m)
-- [ ] Scripts (120m) <br/>
+- [ ] Scripts (120m) 
   - [ ] List (60m)
   - [ ] Dark mode Fuctinality (30m)
   - [ ] Image Hover Functionality: making the image change upon hover
-  - [ ] Form; else use embed
+  - [ ] Form; else use embed<br/>
+
 **Day 4** `4.5hours` 
 - [ ] QA Test (90m)
 - [ ] Feedback and Improvement (60m)

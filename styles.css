@@ -16,15 +16,6 @@ html {
     margin-top: 0px;
 }
 
-
-/* Kinda works, something here makes it go very far right, alt right ya could, margin does nothing*/
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 /* for navigation of sites */
 #navbar {
     display: flexbox;
@@ -78,15 +69,32 @@ a:active {
     color: #F0C0F5;
 }
 
-
-/* For wrapping images content*/
-.container {
+/* For wrapping images content, image element doesnt work as expected*/
+img {
     display: flex;
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px inset #F0C0F5;
+}
+
+.container {
+    display: flexbox;
     flex-wrap: wrap;
+    padding: 40px 20px;
     align-content: center;
     margin-top: 20px;
-    width: fit-content;
 }
+
+.container-wrap {
+    display: inherit;
+}
+
+.container-interact {
+    text-emphasis: none;
+}
+
 /* im trying to get footer work here, theres an unused footer class in html */
 footer {
     border: 2px double #454545;
