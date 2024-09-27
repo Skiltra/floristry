@@ -18,11 +18,12 @@ html {
 
 /* for navigation of sites */
 #navbar {
-    display: flexbox;
+    display: flex;
     position: fixed;
+    justify-content:space-around;
     text-align: center;
     padding: 18px 8px;
-    width: 100%;
+    width: calc(100% - 16px);
     font-size: 30px;
     /* border-style: solid; */
     border-bottom: inset;
@@ -32,10 +33,11 @@ html {
 
 .logo {
     display: flex;
-    position: inherit;
+    position: static;
     text-align: left;
+    justify-items: left;
     color: #FCD3DE;
-    width: 20%;
+    /* width: 20%; */
     text-shadow: 0 0 5px #fff,
     0 0 10px #08803c,
     0 0 20px #F0C0F5,
@@ -44,16 +46,48 @@ html {
     0 0 55px #F0C0F5,
     0 0 70px #F0C0F5;
 }
-/* navbar dropdown trial */
+
+@media (max-width:400px) {
+    .logo {
+        display: none;
+    }
+}
+/* navbar dropdown */
+
 .dropdown {
-    display: hidden;
-
+    position: relative;
+    background-color: inherit;
 }
 
-.dropdown:hover {
+.dropdown .content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .content {
     display: block;
-
+    background-color: hsla(0, 0%, 62%, 0.63);
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #FCD3DE;
+    padding: 2px 8px;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #9834a5,
+    0 0 20px #F0C0F5,
+    0 0 30px #F0C0F5,
+    0 0 40px #F0C0F5,
+    0 0 55px #F0C0F5,
+    0 0 70px #F0C0F5;
 }
+/* darkmode implement */
+button {
+    background-color: #171718;
+    cursor: pointer;
+    width:35px;
+    color: #F7EDF0;
+}
+
 /* for links styling */
 a {
     text-decoration: none;
@@ -76,7 +110,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 3px inset #F0C0F5;
+    border: 5px inset #F0C0F5;
+    border-radius: 12px;
 }
 
 .container {

@@ -11,13 +11,24 @@
 <body>
 <!-- div for navigation container -->
     <div id="navbar">
-        <a href="" class="logo" onclick="varus()">Elysium Gardens</a>
-        <a href="./index.html">Home</a>
-        <a href="./bouquet.html">Bouqeuts</a>
-        <a href="./plants.html">Plants</a>
-        <a href="">About Us</a>
-    </div>
+        <a href="./index.html" class="logo">Elysium Gardens</a>
+        <span class="dropdown"><a href="./bouquet.html">Selection</a>
+            <div class="content">
+            <a href="./bouquet.html">Bouqeuts</a>
+            <a href="./plants.html">Plants</a>
+            </div>
+        </span>
+        <span class="dropdown"><a href="./Subpages/blogs.html">Blogs</a>
+            <div class="content">
+            <a href="./Subpages/blogs.html">Blogs</a>
+            <a href="./Subpages/articles.html">Articles</a>
+            </div>
+        </span>
+        <a href="" onclick="varus()">About Us</a>
+        <button>&#8719;</button>
+    </div>  
 <!-- contents for landing page -->
+    <main>
     <section class="container">
         <div class="container-wrap">
         <h1>Our Garden</h1>
@@ -27,14 +38,13 @@
         <p>From stunning fresh-cut floral arrangements to low-maintenance indoor plants, explore our wide range of offerings. Each item is handpicked by our expert florists, ensuring the highest quality and freshest blooms for every order</p>
     </div>
     </section>
+    </main>
 <!-- include footer for social media links to websites -->
-
     <footer class="footer" target="_blank">
         <a href="./pageAttributions.html" target="_self">Attributions</a>
         <a href="https://en-gb.facebook.com" target="_blank">Facebook</a>
         <a href="https://www.instagram.com" target="_blank">Instagram</a>
         <a href="https://www.snapchat.com" target="_blank">Snapchat</a>
     </footer>
-
 </body>
 </html>
