@@ -15,9 +15,6 @@ Light: #7F7B82
 Color 1: #FCD3DE (dark background)
 Color 2: #F0C0F5 (white)
 
-## Fonts
-- multi language support
-
 ## Productivity
 - Todo List
 - Kanban Boards
@@ -42,16 +39,16 @@ Functional: does the website actually perform
 **Day 3** `2 hours`
 - [x] Setup GitHub
 - [ ] List Integrated Right (30m)
-- [ ] Secondary Pages (45m)
+- [x] Secondary Pages (45m)
 - [ ] Scripts (120m) 
   - [ ] List (60m)
   - [ ] Dark mode Fuctinality (30m)
-  - [ ] Image Hover Functionality: making the image change upon hover
+  - [ ] Image Hover Functionality: making the image change upon hover in gallery with small width img
   - [ ] Form; else use embed<br/>
 
 **Day 4** `4.5hours` 
 - [ ] QA Test (90m)
-- [ ] Feedback and Improvement (60m)
+- [x] Feedback and Improvement (60m) <!--bigger font was added and hover ability-->
 - [ ] Functional Tests (100m)<br/>
 **Day 5** `1 hour`
 - [ ] Github Hosting
@@ -83,3 +80,11 @@ many wireframes?
 3. Anything aepshetic like color or shadow effects
 ## JS
 - Commenting the basic function, no need to explain each line
+
+# Version
+## Version 0.1 Foundation
+everything that is required for the site to have the abiltiy to exapnd upon
+## Version 1.0 Release
+this is including usable features
+## Version 2.0 Full Features
+include non essential improvement and quality of life improvements
