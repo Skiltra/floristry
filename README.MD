@@ -43,8 +43,8 @@ Functional: does the website actually perform
 - [ ] Scripts (120m) 
   - [ ] List (60m)
   - [ ] Dark mode Fuctinality (30m)
-  - [ ] Image Hover Functionality: making the image change upon hover in gallery with small width img
-  - [ ] Form; else use embed<br/>
+  - [x] Image Hover Functionality: making the image change upon hover in gallery with small width img
+  - [ ] Improvement Form; else use embed<br/>
 
 **Day 4** `4.5hours` 
 - [ ] QA Test (90m)
@@ -52,8 +52,6 @@ Functional: does the website actually perform
 - [ ] Functional Tests (100m)<br/>
 **Day 5** `1 hour`
 - [ ] Github Hosting
-
-- [ ] Draw some difference between element in footer links
 
 Buqeuet testing Dropdown on nav using .dropdown
 
