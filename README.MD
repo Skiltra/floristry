@@ -38,13 +38,12 @@ Functional: does the website actually perform
 
 **Day 3** `2 hours`
 - [x] Setup GitHub
-- [ ] List Integrated Right (30m)
 - [x] Secondary Pages (45m)
 - [ ] Scripts (120m) 
-  - [ ] List (60m)
+  - [ ] List on The Right (60m)
   - [ ] Dark mode Fuctinality (30m)
   - [x] Image Hover Functionality: making the image change upon hover in gallery with small width img
-  - [ ] Improvement Form; else use embed<br/>
+  - [x] Improvement Form; else use embed<br/>
 
 **Day 4** `4.5hours` 
 - [ ] QA Test (90m)

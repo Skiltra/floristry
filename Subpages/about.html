@@ -41,7 +41,18 @@
     <!-- additional contacts -->
     <section>
         <div class="about">
-            <h2>Form</h2>
+            <div class="form">
+            <h2 style="background-color: inherit; color: #F7EDF0;">Form</h2>
+            <form action="">
+                <select name="category" id="category" required>
+                    <option value="issue">Issue</option>
+                    <option value="recommation">Recommation</option>
+                </select>
+                <label for="details" title="describe the thing you are recommending">Details</label><br>
+                <input type="text" style="width: 20%; height: 120px;"><br>
+                <input type="submit" value="Submit">
+            </form>
+            </div>
         </div>
     </section>
 </main>

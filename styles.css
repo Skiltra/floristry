@@ -157,7 +157,7 @@ footer {
     margin-top: 8px; /* moves the footer away from content*/
 }
 
-/* Additional */
+/* about page */
 
 .about {
     border-bottom: 2px solid;
@@ -170,6 +170,17 @@ footer {
     text-align: center;
 }
 
-form {
+.form {
     padding: 20px;
+    background-color: #171718;
 }
+
+select {
+    border: solid 2px;
+    width: 200px;
+}
+
+select:hover {
+    background-color: #7F7B82;
+}
+
